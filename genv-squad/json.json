@@ -1,0 +1,16 @@
+[
+        {
+            "photo": "/images/1.png",
+            "nom": "Makhfi",
+            "prenom": "ghita",
+            "email": "ghita.makhfi.21@gmail.com",
+            "age": 22
+        },
+        {
+            "photo": "/images/2.png", 
+            "nom": "Bouaddi",
+            "prenom": "ghizlane",
+            "email": "ghizlane.bouaddi@gmail.com",
+            "age": 23
+        }
+]
