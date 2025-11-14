@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title> Gestion des Squads "GenV"</title>
 </head>
+
 <body>
     <h1>GenV</h1>
     <div class="carte_liste_apprenant" id="carte_liste">
-       <!-- <div class="block">
+        <!-- <div class="block">
         <ul>
         <div class="image" style="width: 30%; height: 30%; border-radius: 50%;">
             <img alt="photo" class="photo"></div>
@@ -19,8 +21,27 @@
             <small id="age"></small>
         </ul>
         </div> -->
-        
+        <button class="ajouter" id="ajouter">Ajouter apprenant</button>
+    </div>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <h2 class="title-form">Ajout Apprenant</h2>
+            <form class="formulaire" id="formulaire">
+                <label for="nom" class="nomAppren">Nom</label>
+                <input type="text" id="nomInput" required placeholder="Nom">
+                <label for="prenom" class="prenomAppren">Prenom</label>
+                <input type="text" id="prenomInput" required placeholder="Prénom">
+                <label for="email" class="emailAppren">Email</label>
+                <input type="email" id="emailInput" required placeholder="Email">
+                <label for="age" class="ageAppren">Age</label>
+                <input type="number" id="ageInput" required placeholder="Age">
+                <label for="img" class="imgAppren">URL photo</label>
+                <input type="url" id="imgInput" required placeholder="URL de votre photo">
+                <button type="submit" class="enregistrer" id="save">Enregistrer</button>
+            </form>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
